@@ -13,13 +13,12 @@ $ mrt add firebase
 
 **server/main.js**
 ```javascript
+firebase = new Firebase('https://publicdata-bitcoin.firebaseio.com/');
 
-  firebase = new Firebase('https://publicdata-bitcoin.firebaseio.com/');
+firebase.child("bid").on("value", showPrice);
+firebase.child("ask").on("value", showPrice);
 
-  firebase.child("bid").on("value", showPrice);
-  firebase.child("ask").on("value", showPrice);
-
-  function showPrice(snapshot) {
-    console.log(snapshot.name() + ": " + snapshot.val());
-  }
+function showPrice(snapshot) {
+  console.log(snapshot.name() + ": " + snapshot.val());
+}
 ```
