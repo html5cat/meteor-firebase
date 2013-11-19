@@ -3,6 +3,6 @@
   "description": "Use Firebase as a source of your realtime data for your Meteor app",
   "homepage": "https://github.com/dybskiy/meteor-firebase",
   "author": "Yuriy Dybskiy (http://dybskiy.com)",
-  "version": "0.6.15",
+  "version": "0.6.15.1",
   "git": "https://github.com/dybskiy/meteor-firebase.git"
 }
