@@ -1,0 +1,1 @@
+Firebase = Npm.require('firebase');

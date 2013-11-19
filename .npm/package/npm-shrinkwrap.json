@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "firebase": {
+      "version": "0.6.15",
+      "dependencies": {
+        "faye-websocket": {
+          "version": "0.7.0",
+          "dependencies": {
+            "websocket-driver": {
+              "version": "0.3.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}

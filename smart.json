@@ -1,0 +1,8 @@
+{
+  "name": "Firebase",
+  "description": "Firebase Meteor wrapper",
+  "homepage": "https://github.com/dybskiy/meteor-firebase",
+  "author": "Yuriy Dybskiy (http://dybskiy.com)",
+  "version": "0.6.15",
+  "git": "https://github.com/dybskiy/meteor-firebase.git"
+}
