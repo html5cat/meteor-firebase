@@ -9,7 +9,7 @@ npm module – `https://npmjs.org/package/firebase`
 $ mrt add firebase
 ```
 
-**app.js**
+**server/main.js**
 ```javascript
 
   firebase = new Firebase('https://publicdata-bitcoin.firebaseio.com/');
