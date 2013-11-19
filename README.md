@@ -1,7 +1,9 @@
 Firebase npm module packaged for Meteor
 ==========================
 
-npm module – `https://npmjs.org/package/firebase`
+npm module lives [here](https://npmjs.org/package/firebase).
+
+Current version 0.6.15
 
 ## Quick Start
 
